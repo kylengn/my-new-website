@@ -37,7 +37,7 @@
         <h1 class="hero-title" class="load-hidden">
           Hi, my name is <span class="text-color-main">Kyle Nguyen</span>
           <br />
-          I'm the Full-Stack Developer you need.
+          I'm the Front-End (ReactJS) Developer you need.
         </h1>
         <p class="hero-cta" class="load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -68,16 +68,16 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                My name is Kyle Nguyen. I am a Toronto-based Full-Stack
-                developer who has more than 2 years of experience in creating
-                websites for clients throughout my web development journey.
+                My name is Kyle Nguyen. I am a Toronto-based front-end developer
+                who has more than 2 years of experience in creating websites for
+                clients throughout my web development journey.
                 <br /><br />I graduated from Seneca College with a Bachelor's
-                Degree of Computer Science back in 2020. During college, I was
-                fortunate to be working as a front-end developer for a company
-                named CodePXL where I gained my practical knowledge about
-                building and maintaining websites professionally.<br /><br />
+                Degree of Computer Science back in 2020. <br /><br />
+                Since 2021, I have been working remotely for a blockchain team
+                called ApolloChain which was founded by my brothers in
+                Vietnam.<br /><br />
                 Right now, I would like to be employed as a full-time
-                professional full-stack developer and provide my personal values
+                professional front-end developer and provide my personal values
                 to your organization as well as upgrade my skills under this
                 chosen career path.
               </p>
@@ -106,6 +106,64 @@
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">
+                  Meta Dino Landing Page
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    This landing page was built with a combination of NextJS and
+                    Tailwindcss at production level. The page introduces to a
+                    NFT play to earn gaming platform that ApolloChain will be
+                    launching by the summer of 2022. In this project, there are
+                    quite a few React dependencies used to provide users most
+                    interesting browsing experience. Dependencies are used:
+                  </p>
+                  <ul style="font-size: 1.5rem; font-weight: 100">
+                    <li>NextJS</li>
+                    <li>TailwindCSS as main CSS framework</li>
+                    <li>React-reaveal as Fading transition</li>
+                    <li>React-slick as Slider</li>
+                    <li>Swiper as Slider</li>
+                  </ul>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://metadino.me/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a rel="noreferrer" href="https://metadino.me/" target="_blank">
+                  <div data-tilt class="thumbnail rounded js-tilt">
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project-1.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
 
           <!-- Each .row is a project -->
           <div class="row">
@@ -312,60 +370,6 @@
             </div>
           </div>
           <!-- /END Project -->
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">RoboFriends</h3>
-                <div>
-                  <p class="mb-4">
-                    A simple yet fun app that are built in React + Tachyons to
-                    dynamically fetch data from
-                    <a
-                      href="https://jsonplaceholder.typicode.com/"
-                      target="_blank"
-                      >jsonplaceholder.typicode.com</a
-                    >. The app utilizes all the basics of React from Class,
-                    Props, State to Lifecycle Hooks.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://rbfrds.netlify.app/"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/kylengn/robofriends"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a
-                  rel="noreferrer"
-                  href="https://rbfrds.netlify.app/"
-                  target="_blank"
-                >
-                  <div data-tilt class="thumbnail rounded js-tilt">
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project-1.png"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
 
           <!-- Each .row is a project -->
           <div class="row">
@@ -418,54 +422,6 @@
             </div>
           </div>
           <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <!-- <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded js-tilt">
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div> -->
-          <!-- /END Project -->
         </div>
       </div>
     </section>
@@ -483,7 +439,7 @@
                 <p>
                   <span class="fa-icon">
                     <i class="fa fa-phone" aria-hidden="true"></i> </span
-                  >+1 (647) 994 4392
+                  >+84 (352) 222 9650
                 </p>
               </li>
               <li>
@@ -501,7 +457,7 @@
                       class="fa fa fa-map-marker"
                       aria-hidden="true"
                     ></i> </span
-                  >Toronto, ON Canada
+                  >Ho Chi Minh City, Vietnam
                 </p>
               </li>
             </ul>
@@ -547,7 +503,7 @@
 
         <!-- If you give me some credit, will be huge for me :) -->
         <p>
-          © 2021 - Developed by
+          © 2022 - Developed by
           <a
             style="color: #ffdfdf"
             rel="noreferrer"

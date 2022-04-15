@@ -64,8 +64,8 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
   -webkit-text-fill-color: $secondary-color; // fallback
   @supports (-webkit-background-clip: text) or (background-clip: text) {
     background-image: linear-gradient(
-      135deg,
-      $primary-color 0%,
+      100deg,
+      $primary-color -50%,
       $secondary-color 100%
     );
     -webkit-background-clip: text;
