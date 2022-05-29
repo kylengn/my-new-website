@@ -1,19 +1,16 @@
 {
-  "name": "simplefolio",
+  "name": "portfolio",
   "version": "1.0.1",
-  "private": "true",
+  "private": true,
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cobidev/simplefolio"
-  },
+  "repository": "https://github.com/kylengn/my-new-website",
   "keywords": [],
-  "author": "Jacobo Martinez",
+  "author": "Kyle Nguyen",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cobidev/simplefolio/issues"
